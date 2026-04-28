@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.0.0](https://github.com/blcoyote/agentic-dev-team/compare/agentic-security-assessment-v2.1.0...agentic-security-assessment-v3.0.0) (2026-04-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **security-assessment:** plugin renamed to eliminate prefix collision with the `security-review` agent that lives in `agentic-dev-team`. The agent name is contract-stable (per security-primitives-contract.md registry) and does not move. The plugin ships under its new name from 1.0.0 forward.
+
+### Features
+
+* **security-assessment:** ship apply-accepted-risks.sh + primitives contract v1.3.0 ([caa62df](https://github.com/blcoyote/agentic-dev-team/commit/caa62dfa668f16736257d8fd004443da7800027e))
+* **security-assessment:** ship apply-severity-floors.sh with externalized allow-list ([399f300](https://github.com/blcoyote/agentic-dev-team/commit/399f300a899187746038d81323f030d6688fd167))
+* **security-assessment:** ship find-ci-files.sh for CI/CD definition discovery ([3782dac](https://github.com/blcoyote/agentic-dev-team/commit/3782dacd07a91e1465cf9833f67642d3450f74bb))
+* **security-assessment:** ship phase-timer.sh with shell-test harness ([652e8a9](https://github.com/blcoyote/agentic-dev-team/commit/652e8a9cb8d56d79cf347e7646a72c4617a19c38))
+
+
+### Code Refactoring
+
+* **security-assessment:** address /code-review findings ([1f61c6e](https://github.com/blcoyote/agentic-dev-team/commit/1f61c6ea370a38b912b95fbb3b170ade45d67680))
+* **security-assessment:** rename plugin agentic-security-review → agentic-security-assessment (1.0.0) ([9195f22](https://github.com/blcoyote/agentic-dev-team/commit/9195f22a29b181ff049c9b7e689bfa2b69fa3c2a))
+
+
+### Documentation
+
+* **agentic-dev-team:** update cross-references to renamed companion plugin + history note on rename docs ([87a7a34](https://github.com/blcoyote/agentic-dev-team/commit/87a7a3445a26e2471ceff312fe34ecd92a3098de))
+* **security-assessment:** update plugin-internal references to new name + CHANGELOG 1.0.0 migration entry ([7e0ebc7](https://github.com/blcoyote/agentic-dev-team/commit/7e0ebc7e4adc4a0a10b7f4b96bc00c0e8f4e355b))
+
+
+### Miscellaneous
+
+* **ci:** wire helper-script tests + shellcheck into CI ([8cb6126](https://github.com/blcoyote/agentic-dev-team/commit/8cb61268cea9da4b05ec7a059934bed22bbbefea))
+* release main ([0c1c814](https://github.com/blcoyote/agentic-dev-team/commit/0c1c814db12dcfe21bc3b91aaa7e02577adc3744))
+* release main ([6c405e8](https://github.com/blcoyote/agentic-dev-team/commit/6c405e821c969041058043fe55578fe63ab7f85b))
+* release main ([9020e1b](https://github.com/blcoyote/agentic-dev-team/commit/9020e1bfe5e587e488a3f47f3971a3ee2f5a2821))
+* release main ([c33f44e](https://github.com/blcoyote/agentic-dev-team/commit/c33f44ed692d5a2118ae44c177c4f8940055d2c2))
+
 ## [2.1.0](https://github.com/bdfinst/agentic-dev-team/compare/agentic-security-assessment-v2.0.0...agentic-security-assessment-v2.1.0) (2026-04-27)
 
 
